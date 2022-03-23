@@ -143,4 +143,29 @@ text-align: justify;
     
 }
 
+/* css blasfemia*/
 
+#blasfemia {
+    margin-top: 10px;
+    letter-spacing: 0.03em;
+    word-spacing: 0.05em;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#blas {
+    text-align: justify;
+    color: #008000;
+}
+ #blas:hover {
+color: #0b0bf1;
+
+ }
+
+.blasfemia {
+    text-align: justify;
+    margin-right: 10px;
+    letter-spacing: 0.01em;
+    padding: 5px;
+
+}
