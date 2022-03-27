@@ -76,3 +76,19 @@ width: 400px;
 height: 300px;
 }
 
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+
+}
+#boda{
+    width: 200px;
+
+}
+#paz {
+    width: 200px;
+}
+#hanuka {
+    width: 200px;
+}
+
