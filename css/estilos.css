@@ -79,16 +79,30 @@ height: 300px;
 .imagenes {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.imagenes h4 {
+    margin: 10px;
+    color: #4d4d88;
+    text-align: justify;
+}
+.imagenes h5 {
+margin-left: 30px;
 
 }
+
 #boda{
-    width: 200px;
+    width: 100px;
+    margin: 5px;
 
 }
 #paz {
-    width: 200px;
+    width: 100px;
+    margin: 5px;
 }
 #hanuka {
-    width: 200px;
+    width: 100px;
+    margin: 5px;
 }
 
