@@ -61,7 +61,7 @@ h1 {
 .contenido {
     float: left;
     width: 85%;
-    height: 400px;
+    height: 500px;
     background-color: darkblue;
 
 }
@@ -80,4 +80,7 @@ h1 {
     background-color: #808080;
     margin: 5px;
     float: left;
+}
+.box img {
+    width: 100px;
 }
