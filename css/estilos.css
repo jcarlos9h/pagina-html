@@ -1,108 +1,97 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Oswald&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Lato:wght@100&family=Libre+Baskerville:wght@700&family=Oswald&family=Roboto+Mono:wght@100&display=swap');
 
 * {
 list-style: none;
 margin: 0;
-padding: 0;
     }
-
-    body {
-        background-color: #bdb8b8;
-        margin: 10px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-h1 {
-    color:#0000ff;
+/* clases de la cabecera*/
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: #dbc8c8;
     text-align: center;
-    letter-spacing: 0.05em;
-    margin-top: 10px;
-}
-div a {
+    margin-bottom: 10px;
+}   
+.header a {
     text-decoration: none;
     color: #000;
-}
-
-a:hover{
-    color: #ff0000;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     letter-spacing: 0.03em;
-    margin-top: 10px;
-    word-spacing: 0.03em;
+    font-family:'Arvo', serif;
+} 
 
-}
-
-.flex {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 80px;
-}
-
-#titulo {
+h1 {
     color: #000;
-    background-color: #808080;
+    background-color: #a8b395;
+    margin:15px;
+    padding: 10px;
     text-align: center;
-    letter-spacing: o.03em;
+    font-family:'Arvo', serif;
+    letter-spacing: 0.03em;
     word-spacing: 0.03em;
-}
+} 
 
-#judaismo {
-margin-left: 10px;
-margin-right: 10px;
-width: 400px;
-height: 300px;
-}
+/* clases e id del cuerpo */
 
-#tuvia {
-margin-left: 10px;
-margin-right: 10px;
-width: 400px;
-height: 300px;
-}
-
-#yoel {
-margin-left: 10px;
-margin-right: 10px;
-width: 400px;
-height: 300px;
-}
-
-.imagenes {
+.sidebar {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    float: left;
+    width: 15%;
+    height: 500px;
+    background-color: #b2c5c5;
+ 
 }
-
-.imagenes h4 {
+.sidebar h3 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family:'Arvo', serif;
+}
+.sidebar img {
+    width: 120px;
+    height: 100px;
     margin: 10px;
-    color: #4d4d88;
-    text-align: justify;
 }
-.imagenes h5 {
-margin-left: 30px;
-
+.sidebar h4 {
+    color: #000;
+     margin-left: 65px;
+}
+.sidebar a {
+    text-decoration: none;
 }
 
-#boda{
-    width: 100px;
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 80%;
+    margin: 1cm;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
     margin: 5px;
-
+    text-align:center ;
 }
-#paz {
-    width: 100px;
-    margin: 5px;
+.box h2 {
+    font-size: 15px;
+    color: #221e08;
 }
-#hanuka {
-    width: 100px;
-    margin: 5px;
+.contenido img {
+    width: 150px;
+    height: 150px;
 }
-
+.footer {
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #808080;
+    color: #000;
+    font-size: medium;
+    font-family:'Arvo', serif;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 1cm;
+}
