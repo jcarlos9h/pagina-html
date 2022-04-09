@@ -39,7 +39,7 @@ h1 {
     flex-direction: column;
     float: left;
     width: 15%;
-    height: 500px;
+    height: 600px;
     background-color: #b2c5c5;
  
 }
@@ -49,9 +49,10 @@ h1 {
     font-family:'Arvo', serif;
 }
 .sidebar img {
-    width: 120px;
+    width: 100px;
     height: 100px;
     margin: 10px;
+    margin-left: 30px;
 }
 .sidebar h4 {
     color: #000;
