@@ -96,3 +96,11 @@ h1 {
     text-align: center;
     margin-top: 1cm;
 }
+/* Estilos del carrousel*/
+.carousel-item img {
+    width: 400px;
+    height: 350px;
+}
+.carousel-item h5, p {
+    color:#ff0000;
+}
